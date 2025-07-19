@@ -1,0 +1,6 @@
+cd "c:\Users\rssun\OneDrive\Desktop\emoji-kitchen"
+git gc --prune=now
+git repack -ad
+git add .
+git commit -m "Add hero and article sections"
+git push origin main

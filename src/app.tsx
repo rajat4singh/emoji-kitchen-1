@@ -15,7 +15,7 @@ import {
   teal,
 } from "@mui/material/colors";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Footer from "./Components/footer";
+
 import Kitchen from "./Components/kitchen";
 
 // 🌈
@@ -55,8 +55,7 @@ export default function App() {
       >
         <ThemeProvider theme={theme}>
           <Kitchen />
-        </ThemeProvider>
-        <Footer />
+        </ThemeProvider>     
       </div>
     );
   }
